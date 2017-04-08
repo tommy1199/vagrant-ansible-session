@@ -1,0 +1,4 @@
+- name: Java installed
+  yum:
+    name: java-1.8.0-openjdk.x86_64
+    state: present
